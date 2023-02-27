@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #6943FF;
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    margin-top: 0px;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.box{
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    background: #6943FF;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.btn-convert{
+    padding: 10px 20px;
+    text-align: center;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.output-container{
+    background:#1F2937;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* height: 500px; */
+}
+
+
+.measurement-unit{
+    background : #273549;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.measurement-unit-title{
+    color: white;
+}
+
+.measurement-conversion{
+    color: white;
+    font-size: 20px;
+}
